@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+
+        android:icon="@mipmap/pet_shelter"
+        android:title="Home"
+        app:showAsAction="always" />
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_item_greatHouses"
+            android:title="Ana Sayfa"
+            />
+        <item
+            android:id="@+id/nav_item_sevenKingdoms"
+            android:title="Patile"/>
+        <item
+            android:id="@+id/nav_item_characters"
+            android:title="Irklar"/>
+    </group>
+
+</menu>
